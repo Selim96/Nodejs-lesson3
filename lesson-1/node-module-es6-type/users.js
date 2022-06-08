@@ -8,3 +8,5 @@ const users = {
 };
 
 export default users;
+
+export const box = ["pen", "pencile", "marker"];

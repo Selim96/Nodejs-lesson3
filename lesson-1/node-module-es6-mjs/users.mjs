@@ -7,4 +7,9 @@ const users = {
     clients
 };
 
+export const box = ["pen", "pencile", "marker"];
+
 export default users;
+
+
+

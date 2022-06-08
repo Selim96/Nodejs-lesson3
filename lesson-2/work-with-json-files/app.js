@@ -27,7 +27,7 @@ const invokeAction = async ({action, id, title, author}) =>{
     }
 }
 
-// invokeAction({action: "list"});
+invokeAction({action: "list"});
 // invokeAction({action: "get", id: "u9kgwNWGi3uUUwh0b8V49"});
 // invokeAction({action: "add", title: "Girl genius", author: "Foglio"});
-invokeAction({action: "remove", id: "voqn6yyErS4TJbbRc9IbS"});
+// invokeAction({action: "remove", id: "voqn6yyErS4TJbbRc9IbS"});
