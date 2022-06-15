@@ -8,6 +8,7 @@ const messages = {
 
 const createError = (status, message = messages[status]) => {
     const error = new Error(message);
+    console.log(error)
     error.status = status;
     return error;
 }
