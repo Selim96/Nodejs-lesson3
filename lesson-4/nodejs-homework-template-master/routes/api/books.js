@@ -82,7 +82,7 @@ router.put("/:id", async (req, res, next) => {
 router.delete("/:id", async (req, res, next) => {
     try {
         const { id } = req.params;
-        const result = await books.updateById(id, req.body);
+        const result = await books.removeById(id);
         if (!result) {
             throw createError(404)
         }
